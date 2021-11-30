@@ -22,28 +22,49 @@ const solanaMetadata = {
 };
 
 // If you have selected Solana then the collection starts from 0 automatically
-const layerConfigurations = [
-  {
-    growEditionSizeTo: 5,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
-    ],
-  },
-];
+// const layerConfigurations = [
+//   {
+//     growEditionSizeTo: 100,
+//     layersOrder: [
+//       { name: "Background" },
+//       { name: "Eyeball" },
+//       { name: "Eye color" },
+//       { name: "Iris" },
+//       { name: "Shine" },
+//       { name: "Bottom lid" },
+//       { name: "Top lid" },
+//     ],
+//   },
+// ];
 
+// const layerConfigurations = [
+//   {
+//     growEditionSizeTo: 50,
+//     layersOrder: [
+//       { name: "Backgrounds" },
+//       { name: "Skin" },
+//       { name: "Outfits" },
+//       { name: "HeadGear" },
+
+
+//     ],
+//   }]
+
+
+  // { name: "Facial hair" },
+  // { name: "Side burns" },
+  // { name: "Freshcut" },
+  // { name: "Mouth" },
+  // { name: "Headgear" },
+  // { name: "Eyes" },
+  // { name: "Eyewear" },
 const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
-
+//size is 768x768
 const format = {
-  width: 512,
-  height: 512,
+  width: 768,
+  height: 768,
   smoothing: false,
 };
 

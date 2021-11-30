@@ -55,7 +55,7 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 100,
     layersOrder: [
-      { name: "Head" },
+      { name: "Head" }, // Lowest layer first
       { name: "Mouth" },
       { name: "Eyes" },
       { name: "Eyeswear" },
